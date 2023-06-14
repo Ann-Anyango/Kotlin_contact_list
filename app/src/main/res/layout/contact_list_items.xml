@@ -13,7 +13,7 @@
         android:layout_marginTop="41dp"
         android:layout_marginEnd="100dp"
         android:layout_marginBottom="28dp"
-        android:text="Ann"
+        tools:text="Ann"
         android:textSize="24sp"
         app:layout_constraintBottom_toTopOf="@+id/tvPhoneNumber"
         app:layout_constraintEnd_toEndOf="parent"
@@ -25,7 +25,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
         android:layout_marginEnd="44dp"
-        android:text="0701852120"
+        tools:text="0701852120"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tvName" />
@@ -36,16 +36,13 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
         android:layout_marginEnd="16dp"
-        android:layout_marginBottom="24dp"
-        android:text="annanyango@gmail.com"
         android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tvPhoneNumber"
-        app:layout_constraintVertical_bias="0.032" />
+        tools:text="annanyango@gmail.com" />
 
     <ImageView
-        android:id="@+id/ivPersonal"
+        android:id="@+id/ivImage"
         android:layout_width="155dp"
         android:layout_height="211dp"
         app:layout_constraintEnd_toStartOf="@+id/tvEmail"
